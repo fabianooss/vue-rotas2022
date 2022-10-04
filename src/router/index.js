@@ -21,7 +21,12 @@ const routes = [
     path: '/marca-form/:id',
     name: 'marca-form',
     component: () => import('../views/MarcaFormView.vue')
-  },  
+  }, 
+  {
+    path: '/marca-form',
+    name: 'marca-form-new',
+    component: () => import('../views/MarcaFormView.vue')
+  },   
   {
     path: '/carro',
     name: 'carro',
